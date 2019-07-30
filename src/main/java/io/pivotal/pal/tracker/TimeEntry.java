@@ -78,4 +78,15 @@ public class TimeEntry {
     public long getId() {
         return timeEntryId;
     }
+
+    @Override
+    public String toString() {
+        return "TimeEntry{" +
+                "timeEntryId=" + timeEntryId +
+                ", projectId=" + projectId +
+                ", userId=" + userId +
+                ", date=" + date +
+                ", hours=" + hours +
+                '}';
+    }
 }
